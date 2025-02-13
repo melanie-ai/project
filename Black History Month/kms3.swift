@@ -9,10 +9,6 @@ import SwiftUI
 
 struct kms3: View {
     var body: some View {
-        Text("Culture")
-            .multilineTextAlignment(.leading)
-            .font(.title)
-            .fontWeight(.black)
         ScrollView{
             cardView(one: "Aretha", text: "Aretha Louise Franklin was an American singer, songwriter, pianist, and civil rights activist. She was known as the Queen of Soul and was twice named by Rolling Stone magazine as the greatest singer of all time. Franklin was the first woman inducted into the Rock and Roll Hall of Fame in 1987.", subtext: "Aretha Franklin")
             cardView(one: "Ella", text: "Ella Jane Fitzgerald was an American jazz singer and composer who reigned as the most popular female jazz singer in the US for over 50 years.", subtext: "Ella Fitzgerald")

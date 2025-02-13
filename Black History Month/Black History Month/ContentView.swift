@@ -12,6 +12,7 @@ struct ContentView: View {
         TabView{
             kms()
                 .tabItem{
+                    
                     Label("Figures", systemImage: "person.fill")
                 }
             kms2()

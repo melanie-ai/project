@@ -9,10 +9,6 @@ import SwiftUI
 
 struct kms: View {
     var body: some View {
-        Text("Figures")
-            .multilineTextAlignment(.leading)
-            .font(.title)
-            .fontWeight(.black)
         ScrollView{
             rdView(one: "Martin_Luther_King,_Jr.", text: "Martin Luther King Jr. was an American Baptist minister, activist, and political philosopher who was one of the most prominent leaders in the civil rights movement from 1955 until his assassination in 1968.", subtext: "Martin Luther King Jr.")
             rdView(one: "Malcolm", text: "Malcolm X was one of the most significant figures within the American Black nationalist movement. Many of the ideas he articulated, like race pride and self-defense, became ideological mainstays of the Black Power movement that emerged in the 1960s and '70s.", subtext: "Malcolm X")

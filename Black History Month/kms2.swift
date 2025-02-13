@@ -9,10 +9,6 @@ import SwiftUI
 
 struct kms2: View {
     var body: some View {
-        Text("Movement")
-            .multilineTextAlignment(.leading)
-            .font(.title)
-            .fontWeight(.black)
         ScrollView{
             ardView(one: "Wash", text: "The march gave hope to many Americans that civil rights issues would be addressed. The march was a collaborative effort between civil rights, labor, and religious organizations, as well as student groups.", subtext: "Washington March")
             ardView(one: "Riders", text: "Freedom Riders were civil rights activists who rode buses into the segregated Southern United States in 1961 to challenge segregation laws", subtext: "Freedom Riders")
